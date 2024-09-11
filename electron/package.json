@@ -1,0 +1,20 @@
+{
+  "name": "my-electron-app",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "ng build --prod",
+    "build-electron": "npm run build && tsc -p electron/tsconfig.electron.json",
+    "package": "electron-builder"
+  },
+  "devDependencies": {
+    "@types/electron": "^1.4.38",
+    "@types/node": "^22.5.4",
+    "electron": "^32.1.0",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "electron-is-dev": "^3.0.1"
+  }
+}
