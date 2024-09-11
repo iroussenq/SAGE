@@ -1,4 +1,4 @@
-# Sage
+# SAGE 🏫
 Sistema Aberto de Gerenciamento Escolar
 
 ### Problema:
